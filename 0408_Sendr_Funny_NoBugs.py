@@ -45,7 +45,7 @@ mailserver.ehlo()
 mailserver.starttls()
 # re-identify ourselves as an encrypted connection
 mailserver.ehlo()
-mailserver.login('mkramer265@gmail.com', 'Celtics123')
+mailserver.login('mkramer265@gmail.com', 'pw')
 
 mailserver.sendmail('mkramer265@gmail.com',newlist,msg.as_string())
 
